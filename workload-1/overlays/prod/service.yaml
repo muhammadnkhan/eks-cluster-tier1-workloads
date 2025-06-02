@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mkhan-nginx
+  labels:
+    run: mkhan-nginx
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+  selector:
+    run: mkhan-nginx
