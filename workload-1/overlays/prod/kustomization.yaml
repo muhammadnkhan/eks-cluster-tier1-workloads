@@ -3,7 +3,7 @@ kind: Kustomization
 
 # 1) Pull in the “base” folder for workload-A:
 bases:
-  - ../base
+  - ../../base
 
 # 2) List only the workload-specific resources to overlay in “prod”:
 resources:
